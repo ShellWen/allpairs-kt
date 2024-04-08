@@ -1,0 +1,11 @@
+[versions]
+kotlin = "1.9.22"
+compose = "1.6.0"
+allpairs4j = "1.0.1"
+
+[libraries]
+allpairs4j = { module = "io.github.pavelicii:allpairs4j", version.ref="allpairs4j" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+compose = { id = "org.jetbrains.compose", version.ref = "compose" }
